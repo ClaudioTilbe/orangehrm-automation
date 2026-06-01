@@ -162,12 +162,3 @@ Esta característica reduce tiempos de ejecución y acerca la solución a escena
 * ChromeDriver
 * EdgeDriver
 
----
-
-
-
-## Conclusiones
-
-Este proyecto representa el desarrollo de un framework de automatización completo orientado a buenas prácticas de ingeniería de software y testing.
-
-Además de cubrir los requerimientos funcionales solicitados, se priorizó la construcción de una arquitectura reutilizable, mantenible y preparada para evolucionar hacia escenarios de automatización más complejos.
