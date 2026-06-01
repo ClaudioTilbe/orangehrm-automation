@@ -78,14 +78,36 @@ El framework fue desarrollado utilizando el patrón **Page Object Model (POM)** 
 ```text
 OrangeHRM.Automation
 │
-├── Pages
-├── Tests
-├── Drivers
-├── Utilities
-├── Models
+├── Builders
+│   └── Construcción de objetos y datos de prueba
+│
+├── Components
+│   └── Componentes reutilizables de la interfaz
+│
+├── Core
+│   └── Gestión de WebDriver, configuración y utilidades base
+│
 ├── Database
-├── Configuration
-└── Resources
+│   └── Capa de acceso y abstracción de base de datos
+│
+├── Models
+│   └── Modelos de datos utilizados por los tests
+│
+├── Pages
+│   └── Implementación del patrón Page Object Model (POM)
+│
+├── Resources
+│   └── Recursos auxiliares e imágenes utilizadas por el proyecto
+│
+├── Tests
+│   └── Casos de prueba automatizados
+│
+├── AssemblyInfo.cs
+├── OrangeHRM.Automation.csproj
+├── OrangeHRM.Automation.sln
+├── appsettings.json
+└── xunit.runner.json
+
 ```
 
 ### Principios Aplicados
