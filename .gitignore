@@ -1,0 +1,35 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Test Results
+TestResults/
+
+# Packages
+packages/
+
+# NuGet
+*.nupkg
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Configuración sensible
+appsettings.Development.json
+.env
