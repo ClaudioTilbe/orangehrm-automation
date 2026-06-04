@@ -180,3 +180,14 @@ El framework soporta ejecución paralela de pruebas, permitiendo correr los esce
 
 Esta característica reduce tiempos de ejecución y acerca la solución a escenarios reales de integración continua.
 
+---
+
+## Captura de Evidencias
+
+El framework incorpora un mecanismo de captura automática de pantallas ante errores o fallos durante la ejecución de las pruebas.
+
+Cuando un escenario no finaliza correctamente, se genera una evidencia visual del estado de la aplicación en el momento del fallo, facilitando el análisis, la depuración y la identificación de la causa del problema.
+
+Esta funcionalidad resulta especialmente útil durante la ejecución desatendida de pruebas y en entornos de integración continua, donde permite disponer de información adicional para el diagnóstico de incidencias.
+
+
