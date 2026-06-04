@@ -1,14 +1,12 @@
 # OrangeHRM Automation Framework
 
-## Descripción
-
 Este repositorio contiene un framework de automatización de pruebas desarrollado en **C# (.NET)** utilizando **Selenium WebDriver** y **xUnit**, siguiendo el patrón de diseño **Page Object Model (POM)**.
 
 El objetivo del proyecto fue implementar una solución de automatización mantenible y escalable capaz de realizar operaciones de Alta, Modificación y Baja (ABM) sobre empleados dentro de la plataforma OrangeHRM, aplicando buenas prácticas de desarrollo y testing.
 
 ---
 
-## Objetivos del Proyecto
+# :link: OBJETIVOS (1)
 
 Durante el desarrollo se buscó cumplir los siguientes objetivos:
 
@@ -23,7 +21,7 @@ Durante el desarrollo se buscó cumplir los siguientes objetivos:
 
 ---
 
-## Proceso de Aprendizaje
+# :link: PROCESO DE APRENDIZAJE (2)
 
 Este proyecto fue desarrollado a lo largo de aproximadamente dos semanas como parte de un proceso intensivo de aprendizaje en automatización de pruebas.
 
@@ -43,7 +41,8 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 
 ---
 
-## Casos de Prueba Implementados
+
+# :link: CASOS DE PRUEBA IMPLEMENTADOS (3)
 
 ### Alta de Empleado
 
@@ -69,11 +68,12 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 
 ---
 
-## Arquitectura del Proyecto
+
+# :link: ARQUITECTURA (4)
 
 El framework fue desarrollado utilizando el patrón **Page Object Model (POM)** para desacoplar la lógica de negocio de la interacción con la interfaz gráfica.
 
-### Estructura General
+## Estructura
 
 ```text
 OrangeHRM.Automation
@@ -153,7 +153,8 @@ Esta característica reduce tiempos de ejecución y acerca la solución a escena
 
 ---
 
-## Tecnologías Utilizadas
+
+# :link: TECNOLOGÍAS UTILIZADAS ()
 
 * C#
 * .NET
