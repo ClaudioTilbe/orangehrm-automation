@@ -6,8 +6,25 @@ El proyecto fue desarrollado sobre la plataforma [OrangeHRM](https://opensource-
 
 El objetivo del proyecto fue implementar una solución de automatización mantenible y escalable capaz de realizar operaciones de Alta, Modificación y Baja (ABM) sobre empleados dentro de la plataforma, aplicando buenas prácticas de desarrollo y testing.
 
+---
+
+
+# Índice
+
+* **[1 - Características principales](#link-características-principales-1)**
+
+* **[2 - Tecnologías utilizadas](#link-tecnologías-utilizadas-2)**
+
+* **[3 - Funciones](#link-funciones-3)**
+
+* **[4 - Arquitectura](#link-arquitectura-4)**
+
+* **[5 - Finalidad del proyecto](#link-finalidad-del-proyecto-5)**
+
+* **[6 - Seguridad](#link-seguridad-6)**
 
 ---
+
 
 # :link: OBJETIVOS (1)
 
@@ -24,7 +41,18 @@ Durante el desarrollo se buscó cumplir los siguientes objetivos:
 
 ---
 
-# :link: PROCESO DE APRENDIZAJE (2)
+
+# :link: TECNOLOGÍAS UTILIZADAS (2)
+
+* C#
+* .NET
+* Selenium WebDriver
+* xUnit
+* ChromeDriver
+* EdgeDriver
+
+
+# :link: PROCESO DE APRENDIZAJE (3)
 
 Este proyecto fue desarrollado a lo largo de aproximadamente dos semanas como parte de un proceso intensivo de aprendizaje en automatización de pruebas.
 
@@ -45,7 +73,7 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 ---
 
 
-# :link: CASOS DE PRUEBA IMPLEMENTADOS (3)
+# :link: CASOS DE PRUEBA IMPLEMENTADOS (4)
 
 ### Alta de Empleado
 
@@ -72,7 +100,7 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 ---
 
 
-# :link: ARQUITECTURA (4)
+# :link: ARQUITECTURA (5)
 
 El framework fue desarrollado utilizando el patrón **Page Object Model (POM)** para desacoplar la lógica de negocio de la interacción con la interfaz gráfica.
 
@@ -153,16 +181,4 @@ Actualmente se encuentra preparada para:
 El framework soporta ejecución paralela de pruebas, permitiendo correr los escenarios sobre múltiples navegadores durante una misma ejecución.
 
 Esta característica reduce tiempos de ejecución y acerca la solución a escenarios reales de integración continua.
-
----
-
-
-# :link: TECNOLOGÍAS UTILIZADAS ()
-
-* C#
-* .NET
-* Selenium WebDriver
-* xUnit
-* ChromeDriver
-* EdgeDriver
 
