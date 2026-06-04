@@ -11,17 +11,15 @@ El objetivo del proyecto fue implementar una solución de automatización manten
 
 # Índice
 
-* **[1 - Características principales](#link-características-principales-1)**
+* **[1 - Objetivos](#link-objetivos-1)**
 
 * **[2 - Tecnologías utilizadas](#link-tecnologías-utilizadas-2)**
 
-* **[3 - Funciones](#link-funciones-3)**
+* **[3 - Proceso de aprendisaje](#link-proceso-de-aprendizaje-3)**
 
-* **[4 - Arquitectura](#link-arquitectura-4)**
+* **[4 - Casos de prueba implementados](#link-casos-de-prueba-implementados-4)**
 
-* **[5 - Finalidad del proyecto](#link-finalidad-del-proyecto-5)**
-
-* **[6 - Seguridad](#link-seguridad-6)**
+* **[5 - Arquitectura](#link-arquitectura-5)**
 
 ---
 
