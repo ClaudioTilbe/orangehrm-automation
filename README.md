@@ -1,8 +1,11 @@
 # OrangeHRM Automation Framework
 
-Este repositorio contiene un framework de automatización de pruebas desarrollado en **C# (.NET)** utilizando **Selenium WebDriver** y **xUnit**, siguiendo el patrón de diseño **Page Object Model (POM)**.
+Este repositorio contiene un framework de automatización de pruebas desarrollado en C# (.NET) utilizando Selenium WebDriver y xUnit, siguiendo el patrón de diseño Page Object Model (POM).
 
-El objetivo del proyecto fue implementar una solución de automatización mantenible y escalable capaz de realizar operaciones de Alta, Modificación y Baja (ABM) sobre empleados dentro de la plataforma OrangeHRM, aplicando buenas prácticas de desarrollo y testing.
+El proyecto fue desarrollado sobre la plataforma [OrangeHRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login), un sistema de gestión de recursos humanos (HRM) de código abierto que dispone de un entorno demo público ampliamente utilizado para la práctica de testing manual y automatizado.
+
+El objetivo del proyecto fue implementar una solución de automatización mantenible y escalable capaz de realizar operaciones de Alta, Modificación y Baja (ABM) sobre empleados dentro de la plataforma, aplicando buenas prácticas de desarrollo y testing.
+
 
 ---
 
