@@ -81,6 +81,9 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 * Guardado de la información.
 * Validación de la operación mediante asserts.
 
+![](assets/Create.gif)
+
+
 ### Modificación de Empleado
 
 * Búsqueda de un empleado existente.
@@ -88,12 +91,18 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 * Guardado de cambios.
 * Validación de la modificación realizada.
 
+![](assets/Update.gif)
+
+
 ### Baja de Empleado
 
 * Localización de un empleado existente.
 * Eliminación del registro.
 * Confirmación de la operación.
 * Validación de la eliminación mediante asserts.
+
+![](assets/Delete.gif)
+
 
 ---
 
