@@ -73,6 +73,18 @@ El foco principal fue construir una solución que no solamente funcionara, sino 
 
 # :link: CASOS DE PRUEBA IMPLEMENTADOS (4)
 
+## Consideraciones sobre la implementación
+
+El framework fue desarrollado utilizando el entorno demo público de OrangeHRM, el cual no proporciona acceso a una API ni a la base de datos de la aplicación.
+
+Por este motivo, las operaciones de **setup** y **cleanup** necesarias para algunos casos de prueba se realizan exclusivamente a través de la interfaz gráfica. Si bien este enfoque no permite aislar completamente los escenarios de prueba, fue la alternativa más adecuada dadas las limitaciones del entorno.
+
+Con el objetivo de mostrar cómo se estructuraría una validación sobre la persistencia de los datos, se implementó una pequeña capa de acceso a base de datos (`EmployeeDb`). Esta clase contiene una implementación simulada junto con ejemplos comentados de cómo serían las consultas reales utilizando ADO.NET.
+
+En un entorno productivo, tanto la preparación y limpieza de datos como las validaciones sobre la persistencia deberían realizarse mediante acceso a una API o directamente a la base de datos, permitiendo obtener pruebas completamente independientes y determinísticas.
+
+---
+
 ### Alta de Empleado
 
 * Inicio de sesión en OrangeHRM.
